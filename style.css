@@ -1,0 +1,67 @@
+html {
+    background-color: rgb(223, 223, 223);
+}
+
+h1 h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+    color: red;
+    text-align: center;
+    padding: 10px 5px;
+}
+
+ol {
+    color: blue;
+    padding-top: 15px;
+    margin-left: 50px;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid black;
+
+}
+
+@media only screen and (max-width: 700px) {
+    html {
+      background-color: lightblue;
+    }
+  }
+
+.ulNav {
+    text-decoration: none;
+
+}
+
+a:visited{
+   color: #00FF00;
+}
+
+a:hover {
+    color: pink
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid div {
+    border: 1px solid black;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 2fr 1fr; 
+}
+
+.grid2 div {
+    border: 1px solid blue
+}
+
